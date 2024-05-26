@@ -1,0 +1,56 @@
+{
+    "prefix": {
+        "galad": "tree",
+        "celeb": "silver",
+        "taur": "forest",
+        "lim": "swift",
+        "nost": "wise",
+        "thrand": "vigorous",
+        "orod": "mountain"
+    },
+    "root": {
+        "las": "leaf",
+        "thoron": "eagle",
+        "faron": "hunter",
+        "galadh": "tree",
+        "mir": "jewel",
+        "lind": "singer",
+        "maeg": "sharp",
+        "rad": "cave",
+        "súr": "wind",
+        "tal": "foot",
+        "glin": "valley",
+        "ram": "wing",
+        "calen": "green",
+        "gorn": "tree-dweller",
+        "thrand": "vigorous",
+        "túr": "power",
+        "val": "power",
+        "lin": "song"
+    },
+    "suffix": {
+        "eth": "folk",
+        "on": "son",
+        "ion": "daughter",
+        "wen": "maiden",
+        "ad": "father",
+        "iel": "daughter",
+        "ion": "son",
+        "el": "star",
+        "rim": "host",
+        "dil": "friend",
+        "rin": "crown",
+        "dir": "man"
+    },
+    "modifier": {
+        "eg": "sharp",
+        "beleg": "mighty",
+        "and": "long",
+        "las": "leafy",
+        "naur": "fire",
+        "thor": "eagle",
+        "gil": "bright",
+        "eithel": "spring",
+        "dor": "land"
+    }
+}

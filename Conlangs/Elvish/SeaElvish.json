@@ -1,0 +1,25 @@
+{
+    "prefix": {
+        "nan": "water",
+        "ul": "by the sea"
+    },
+    "root": {
+        "fal": "wave",
+        "cerin": "ship",
+        "tirion": "harbor",
+        "ear": "sea",
+        "sarn": "stone",
+        "ond": "rock"
+    },
+    "suffix": {
+        "ion": "son/daughter of the sea",
+        "ethel": "shore",
+        "rim": "rim/coast"
+    },
+    "modifier": {
+        "beleg": "mighty",
+        "lan": "blue",
+        "find": "hair",
+        "cú": "bow"
+    }
+}

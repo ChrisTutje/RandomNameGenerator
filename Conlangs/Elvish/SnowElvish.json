@@ -1,0 +1,24 @@
+{
+    "prefix": {
+        "yol": "fire",
+        "nal": "frost",
+        "krah": "cold"
+    },
+    "root": {
+        "ur": "ice",
+        "dul": "death",
+        "lin": "snow",
+        "tha": "storm",
+        "ul": "glacier"
+    },
+    "suffix": {
+        "tum": "ancient",
+        "vir": "spirit",
+        "ul": "lord"
+    },
+    "modifier": {
+        "fal": "white",
+        "mal": "dark",
+        "ven": "sharp"
+    }
+}

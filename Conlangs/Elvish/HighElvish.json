@@ -1,0 +1,59 @@
+{
+    "prefix": {
+        "fea": "spirit",
+        "aran": "king",
+        "elen": "star",
+        "vala": "power",
+        "cirya": "ship",
+        "or": "above",
+        "alm": "good"
+    },
+    "root": {
+        "luth": "flower",
+        "el": "star",
+        "sil": "shine",
+        "mir": "jewel",
+        "orme": "high",
+        "mel": "love",
+        "cuiva": "alive",
+        "anga": "iron",
+        "indo": "heart",
+        "tor": "high",
+        "alda": "tree",
+        "tir": "watch",
+        "nen": "water",
+        "mara": "home",
+        "cal": "light",
+        "men": "place",
+        "osto": "city",
+        "tara": "high",
+        "elda": "elf",
+        "vala": "power",
+        "arda": "realm",
+        "quenya": "language",
+        "laurë": "gold",
+        "palan": "far",
+        "lúva": "night",
+        "lóte": "flower",
+        "árë": "high"
+    },
+    "suffix": {
+        "mir": "jewel",
+        "rima": "number",
+        "ril": "brilliance",
+        "nár": "flame",
+        "dil": "friend",
+        "rondo": "vault",
+        "mírë": "jewel",
+        "ndil": "friend",
+        "márië": "goodness",
+        "lyë": "people"
+    },
+    "modifier": {
+        "an": "bright",
+        "du": "dark",
+        "la": "small",
+        "wil": "fair",
+        "los": "snow"
+    }
+}

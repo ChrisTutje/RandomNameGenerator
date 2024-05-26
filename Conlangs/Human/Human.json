@@ -1,0 +1,26 @@
+{
+    "prefix": {
+        "bjorn": "bear",
+        "astrid": "divine strength",
+        "hilde": "battle"
+    },
+    "root": {
+        "thor": "thunder",
+        "ulf": "wolf",
+        "odin": "god"
+    },
+    "suffix": {
+        "son": "son",
+        "dottir": "daughter",
+        "skald": "poet"
+    },
+    "modifier": {
+        "ketil": "cauldron",
+        "gunnar": "warrior",
+        "sig": "victory"
+    },
+    "subsets": {
+        "nordic": "Conlangs/Human/Nordic.json",
+        "highland": "Conlangs/Human/Highlander.json"
+    }
+}

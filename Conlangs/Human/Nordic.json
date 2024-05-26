@@ -1,0 +1,12 @@
+{
+    "prefix": {
+        "ragnar": "warrior",
+        "freyja": "goddess"
+    },
+    "root": {
+        "skjold": "shield"
+    },
+    "suffix": {
+        "gard": "enclosure"
+    }
+}

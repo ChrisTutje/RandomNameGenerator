@@ -1,0 +1,40 @@
+{
+    "prefix": {
+        "mor": "black",
+        "oth": "enemy",
+        "lath": "shadow",
+        "morg": "dark"
+    },
+    "root": {
+        "dagnir": "slayer",
+        "gaur": "wolf",
+        "guil": "snake",
+        "lath": "shadow",
+        "rach": "demon",
+        "thurin": "eagle",
+        "tum": "deep",
+        "várn": "gate",
+        "orod": "mountain",
+        "galadh": "tree",
+        "úl": "foul",
+        "gurth": "death",
+        "glaur": "gold",
+        "angor": "iron",
+        "dol": "hill"
+    },
+    "suffix": {
+        "nogoth": "dwarf",
+        "oth": "enemy",
+        "nas": "dread",
+        "duath": "shadow",
+        "aug": "hate",
+        "rim": "host"
+    },
+    "modifier": {
+        "ach": "sharp",
+        "gur": "death",
+        "or": "fiery",
+        "lug": "bane",
+        "grin": "cruel"
+    }
+}
