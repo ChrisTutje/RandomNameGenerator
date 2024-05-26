@@ -1,25 +1,59 @@
 {
     "prefix": {
-        "nan": "water",
-        "ul": "by the sea"
+        "nan": {"meaning": "water", "origin": "Telerin"},
+        "ul": {"meaning": "by the sea", "origin": "Telerin"},
+        "ne": {"meaning": "ocean", "origin": "Maormer"},
+        "ve": {"meaning": "wave", "origin": "Maormer"},
+        "al": {"meaning": "ocean", "origin": "Sea Elvish"},
+        "ess": {"meaning": "deep", "origin": "Sea Elvish"},
+        "el": {"meaning": "sea", "origin": "Sea Elvish"},
+        "ren": {"meaning": "ship", "origin": "Sea Elvish"},
+        "mi": {"meaning": "sea", "origin": "Sea Elvish"},
+        "kelp": {"meaning": "kelp", "origin": "Sea Elvish"}
     },
     "root": {
-        "fal": "wave",
-        "cerin": "ship",
-        "tirion": "harbor",
-        "ear": "sea",
-        "sarn": "stone",
-        "ond": "rock"
+        "fal": {"meaning": "wave", "origin": "Telerin"},
+        "cerin": {"meaning": "ship", "origin": "Telerin"},
+        "tirion": {"meaning": "harbor", "origin": "Telerin"},
+        "ear": {"meaning": "sea", "origin": "Telerin"},
+        "sarn": {"meaning": "stone", "origin": "Telerin"},
+        "ond": {"meaning": "rock", "origin": "Telerin"},
+        "mel": {"meaning": "serpent", "origin": "Maormer"},
+        "tarn": {"meaning": "coral", "origin": "Maormer"},
+        "vor": {"meaning": "foam", "origin": "Maormer"},
+        "la": {"meaning": "ocean", "origin": "Sea Elvish"},
+        "mer": {"meaning": "wave", "origin": "Sea Elvish"},
+        "ul": {"meaning": "by the sea", "origin": "Sea Elvish"},
+        "as": {"meaning": "wave", "origin": "Sea Elvish"},
+        "cal": {"meaning": "shell", "origin": "Sea Elvish"},
+        "fin": {"meaning": "fin", "origin": "Sea Elvish"},
+        "ghel": {"meaning": "beach", "origin": "Sea Elvish"},
+        "ma": {"meaning": "sea", "origin": "Sea Elvish"},
+        "dras": {"meaning": "dolphin", "origin": "Sea Elvish"},
+        "sha": {"meaning": "shark", "origin": "Sea Elvish"}
     },
     "suffix": {
-        "ion": "son/daughter of the sea",
-        "ethel": "shore",
-        "rim": "rim/coast"
+        "ion": {"meaning": "son/daughter of the sea", "origin": "Telerin"},
+        "ethel": {"meaning": "shore", "origin": "Telerin"},
+        "rim": {"meaning": "rim/coast", "origin": "Telerin"},
+        "yorn": {"meaning": "whale", "origin": "Maormer"},
+        "nir": {"meaning": "pearl", "origin": "Maormer"},
+        "rin": {"meaning": "kingdom", "origin": "Maormer"},
+        "shyn": {"meaning": "current", "origin": "Sea Elvish"},
+        "mir": {"meaning": "water", "origin": "Sea Elvish"},
+        "nes": {"meaning": "nest", "origin": "Sea Elvish"},
+        "hyl": {"meaning": "cliff", "origin": "Sea Elvish"},
+        "karr": {"meaning": "reef", "origin": "Sea Elvish"},
+        "tir": {"meaning": "tide", "origin": "Sea Elvish"}
     },
     "modifier": {
-        "beleg": "mighty",
-        "lan": "blue",
-        "find": "hair",
-        "cú": "bow"
+        "lan": {"meaning": "blue", "origin": "Telerin"},
+        "find": {"meaning": "hair", "origin": "Telerin"},
+        "cú": {"meaning": "bow", "origin": "Telerin"},
+        "cyn": {"meaning": "deep", "origin": "Maormer"},
+        "dol": {"meaning": "dark", "origin": "Maormer"},
+        "mal": {"meaning": "large", "origin": "Sea Elvish"},
+        "maer": {"meaning": "black", "origin": "Sea Elvish"},
+        "sire": {"meaning": "tide", "origin": "Sea Elvish"}
     }
 }

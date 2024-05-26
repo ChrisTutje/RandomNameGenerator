@@ -1,24 +1,24 @@
 {
     "prefix": {
-        "yol": "fire",
-        "nal": "frost",
-        "krah": "cold"
+        "yol": {"meaning": "fire", "origin": "Falmer"},
+        "nal": {"meaning": "frost", "origin": "Falmer"},
+        "krah": {"meaning": "cold", "origin": "Falmer"}
     },
     "root": {
-        "ur": "ice",
-        "dul": "death",
-        "lin": "snow",
-        "tha": "storm",
-        "ul": "glacier"
+        "ur": {"meaning": "ice", "origin": "Falmer"},
+        "dul": {"meaning": "death", "origin": "Falmer"},
+        "lin": {"meaning": "snow", "origin": "Falmer"},
+        "tha": {"meaning": "storm", "origin": "Falmer"},
+        "ul": {"meaning": "glacier", "origin": "Falmer"}
     },
     "suffix": {
-        "tum": "ancient",
-        "vir": "spirit",
-        "ul": "lord"
+        "tum": {"meaning": "ancient", "origin": "Falmer"},
+        "vir": {"meaning": "spirit", "origin": "Falmer"},
+        "ul": {"meaning": "lord", "origin": "Falmer"}
     },
     "modifier": {
-        "fal": "white",
-        "mal": "dark",
-        "ven": "sharp"
+        "fal": {"meaning": "white", "origin": "Falmer"},
+        "mal": {"meaning": "dark", "origin": "Falmer"},
+        "ven": {"meaning": "sharp", "origin": "Falmer"}
     }
 }

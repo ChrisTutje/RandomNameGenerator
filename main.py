@@ -2,8 +2,26 @@ import random
 import json
 import os
 
+class Language:
+    def __init__(self, name, data):
+        self.name = name
+        self.data = data
+
+    def search(self, term):
+        results = {}
+        for category in ['prefix', 'root', 'suffix', 'modifier']:
+            if category in self.data:
+                for key, value in self.data[category].items():
+                    if isinstance(value, dict):
+                        if term.lower() in key.lower() or term.lower() in value.get('meaning', '').lower():
+                            results[key] = value.get('meaning', '')
+                    else:
+                        if term.lower() in key.lower() or term.lower() in value.lower():
+                            results[key] = value
+        return results
+
 def load_syllables(filepath):
-    with open(filepath, 'r') as file:
+    with open(filepath, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 def merge_syllables(base, additional):
@@ -23,8 +41,9 @@ def generate_name(syllables, structures):
     for part in parts:
         if part in syllables and syllables[part]:
             syllable, meaning = random.choice(list(syllables[part].items()))
+            meaning_text = meaning['meaning'] if isinstance(meaning, dict) else meaning  
             name_parts.append(syllable)
-            meaning_parts.append(meaning)
+            meaning_parts.append(meaning_text)
     
     name = "".join(name_parts).capitalize()
     meaning = " ".join(meaning_parts)
@@ -78,15 +97,51 @@ def generate_conlang_name(language=None, subset=None, hybrid_language=None):
     name, meaning = generate_name(syllables, structures)
     return name, meaning
 
+def search_all_languages(languages, term):
+    results = {}
+    for language in languages:
+        search_results = language.search(term)
+        if search_results:
+            results[language.name] = search_results
+    return results
+
+def load_languages():
+    languages = []
+    language_folders = ['Elvish', 'Human']
+    for lang in language_folders:
+        base_filepath = f"Conlangs/{lang}/{lang}.json"
+        if os.path.exists(base_filepath):
+            base_data = load_syllables(base_filepath)
+            languages.append(Language(lang, base_data))
+            if 'subsets' in base_data:
+                for subset_name, subset_filepath in base_data['subsets'].items():
+                    if os.path.exists(subset_filepath):
+                        subset_data = load_syllables(subset_filepath)
+                        full_data = merge_syllables(base_data.copy(), subset_data)
+                        languages.append(Language(f"{lang} ({subset_name})", full_data))
+    return languages
+
 if __name__ == "__main__":
 
-    # """==Eldarin=="""
-    # print("\nGeneral Elvish names:")
-    # for _ in range(1):
-    #     name, meaning = generate_conlang_name("elvish")
-    #     print(f"Generated Name: {name}")
-    #     print(f"Meaning: {meaning}")
-    # print("\n" + "="*40 + "\n")
+    languages = load_languages()
+    
+    # """Search examples"""
+    # print("Search results in all languages:")
+    # search_term = 'beleg'
+    # all_results = search_all_languages(languages, search_term)
+    # for lang, results in all_results.items():
+    #     print(f'\n{lang}:')
+    #     for key, value in results.items():
+    #         print(f'{key}: {value}')
+    
+
+    """==Eldarin=="""
+    print("\nGeneral Elvish names:")
+    for _ in range(10):
+        name, meaning = generate_conlang_name("elvish")
+        print(f"Generated Name: {name}")
+        print(f"Meaning: {meaning}")
+    print("\n" + "="*40 + "\n")
     
     # """-Avari-"""
     # print("\nGenerating names for Dark Elvish:")
@@ -128,8 +183,8 @@ if __name__ == "__main__":
     #     print(f"Meaning: {meaning}")
     # print("\n" + "-"*40 + "\n")
         
-
-    #"""==Mannish=="""
+        
+    # """==Mannish=="""
     # print("\nGeneral Human names:")
     # for _ in range(1):
     #     name, meaning = generate_conlang_name("human")
@@ -137,7 +192,7 @@ if __name__ == "__main__":
     #     print(f"Meaning: {meaning}")
     # print("\n" + "="*40 + "\n")
     
-    #"""-Nordic-"""
+    # """-Nordic-"""
     # print("Generating names for Nordic Human:")
     # for _ in range(1):
     #     name, meaning = generate_conlang_name("human", "nordic")
@@ -145,7 +200,7 @@ if __name__ == "__main__":
     #     print(f"Meaning: {meaning}")
     # print("\n" + "-"*40 + "\n")
         
-    #"""-Highlander-"""
+    # """-Highlander-"""
     # print("\nGenerating names for Highland Human:")
     # for _ in range(1):
     #     name, meaning = generate_conlang_name("human", "highlander")
@@ -154,11 +209,11 @@ if __name__ == "__main__":
     # print("\n" + "-"*40 + "\n")
 
 
-    #"""==Hybrid Languages=="""
-    #"""-Half-Elven-"""
+    # """==Hybrid Languages=="""
+    # """-Half-Elven-"""
     # print("Generating names for Half-Elvish (combining Elvish and Human):")
     # hybrid_language = [("elvish", None), ("human", None)]
-    # for _ in range(1):
+    # for _ in range(10):
     #     name, meaning = generate_conlang_name(hybrid_language=hybrid_language)
     #     print(f"Generated Name: {name}")
     #     print(f"Meaning: {meaning}")
