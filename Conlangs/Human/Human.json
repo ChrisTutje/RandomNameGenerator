@@ -1,25 +1,66 @@
 {
     "prefix": {
-        "bjorn": "bear",
-        "astrid": "divine strength",
-        "hilde": "battle"
+        "bon": {"meaning": "good", "origin": "Esperanto"},
+        "mal": {"meaning": "opposite", "origin": "Esperanto"},
+        "amik": {"meaning": "friend", "origin": "Esperanto"},
+        "bel": {"meaning": "beautiful", "origin": "Esperanto"},
+        "nov": {"meaning": "new", "origin": "Esperanto"},
+        "grand": {"meaning": "big", "origin": "Esperanto"},
+        "vir": {"meaning": "man", "origin": "Esperanto"},
+        "knab": {"meaning": "boy", "origin": "Esperanto"},
+        "sinjor": {"meaning": "mister", "origin": "Esperanto"},
+        "fraŭl": {"meaning": "miss", "origin": "Esperanto"}
     },
     "root": {
-        "thor": "thunder",
-        "ulf": "wolf",
-        "odin": "god"
+        "dank": {"meaning": "thanks", "origin": "Esperanto"},
+        "viv": {"meaning": "life", "origin": "Esperanto"},
+        "amo": {"meaning": "love", "origin": "Esperanto"},
+        "lum": {"meaning": "light", "origin": "Esperanto"},
+        "verd": {"meaning": "green", "origin": "Esperanto"},
+        "rid": {"meaning": "laugh", "origin": "Esperanto"},
+        "flug": {"meaning": "fly", "origin": "Esperanto"},
+        "muzik": {"meaning": "music", "origin": "Esperanto"},
+        "voj": {"meaning": "way", "origin": "Esperanto"},
+        "nokt": {"meaning": "night", "origin": "Esperanto"},
+        "ĉiel": {"meaning": "sky", "origin": "Esperanto"},
+        "dom": {"meaning": "house", "origin": "Esperanto"},
+        "pens": {"meaning": "think", "origin": "Esperanto"},
+        "lern": {"meaning": "learn", "origin": "Esperanto"},
+        "ŝip": {"meaning": "ship", "origin": "Esperanto"},
+        "mon": {"meaning": "money", "origin": "Esperanto"},
+        "kant": {"meaning": "sing", "origin": "Esperanto"},
+        "liber": {"meaning": "free", "origin": "Esperanto"}
     },
     "suffix": {
-        "son": "son",
-        "dottir": "daughter",
-        "skald": "poet"
+        "ulo": {"meaning": "person", "origin": "Esperanto"},
+        "in": {"meaning": "female", "origin": "Esperanto"},
+        "ist": {"meaning": "one who practices", "origin": "Esperanto"},
+        "eco": {"meaning": "quality of", "origin": "Esperanto"},
+        "eg": {"meaning": "big", "origin": "Esperanto"},
+        "aĉ": {"meaning": "bad", "origin": "Esperanto"},
+        "uj": {"meaning": "container", "origin": "Esperanto"},
+        "inda": {"meaning": "worthy", "origin": "Esperanto"}
     },
     "modifier": {
-        "ketil": "cauldron",
-        "gunnar": "warrior",
-        "sig": "victory"
+        "mal": {"meaning": "opposite", "origin": "Esperanto"},
+        "re": {"meaning": "again", "origin": "Esperanto"},
+        "ek": {"meaning": "begin", "origin": "Esperanto"},
+        "super": {"meaning": "above", "origin": "Esperanto"},
+        "sub": {"meaning": "under", "origin": "Esperanto"},
+        "trans": {"meaning": "across", "origin": "Esperanto"},
+        "mis": {"meaning": "wrong", "origin": "Esperanto"},
+        "dis": {"meaning": "apart", "origin": "Esperanto"},
+        "al": {"meaning": "to", "origin": "Esperanto"},
+        "ekster": {"meaning": "outside", "origin": "Esperanto"}
     },
     "subsets": {
+        "archaic": "Conlangs/Human/Archaic.json",
+        "imperial": "Conlangs/Human/Imperial.json",
+        "nomadic": "Conlangs/Human/Nomadic.json",
+        "easterling": "Conlangs/Human/Easterling.json",
+        "dunlanding": "Conlangs/Human/Dunlanding.json",
+        "highlander": "Conlangs/Human/Highlander.json",
+        "seaguard": "Conlangs/Human/Seaguard.json",
         "nordic": "Conlangs/Human/Nordic.json",
         "highland": "Conlangs/Human/Highlander.json"
     }
