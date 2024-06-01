@@ -184,9 +184,9 @@ if __name__ == "__main__":
     # print("\n" + "-"*40 + "\n")
         
         
-    """==Human=="""
+    # """==Human=="""
     # print("\nGeneral Human names:")
-    # for _ in range(1):
+    # for _ in range(10):
     #     name, meaning = generate_conlang_name("human")
     #     print(f"Generated Name: {name}")
     #     print(f"Meaning: {meaning}")
@@ -248,13 +248,13 @@ if __name__ == "__main__":
     #     print(f"Meaning: {meaning}")
     # print("\n" + "-"*40 + "\n")
     
-    """-Nordic-"""
-    print("Generating names for Nordic Human:")
-    for _ in range(10):
-        name, meaning = generate_conlang_name("human", "nordic")
-        print(f"Generated Name: {name}")
-        print(f"Meaning: {meaning}")
-    print("\n" + "-"*40 + "\n")
+    # """-Nordic-"""
+    # print("Generating names for Nordic Human:")
+    # for _ in range(10):
+    #     name, meaning = generate_conlang_name("human", "nordic")
+    #     print(f"Generated Name: {name}")
+    #     print(f"Meaning: {meaning}")
+    # print("\n" + "-"*40 + "\n")
         
     # """-Highlander-"""
     # print("\nGenerating names for Highland Human:")
@@ -269,7 +269,7 @@ if __name__ == "__main__":
     # """-Half-Elven-"""
     # print("Generating names for Half-Elvish (combining Elvish and Human):")
     # hybrid_language = [("elvish", None), ("human", None)]
-    # for _ in range(1):
+    # for _ in range(10):
     #     name, meaning = generate_conlang_name(hybrid_language=hybrid_language)
     #     print(f"Generated Name: {name}")
     #     print(f"Meaning: {meaning}")
